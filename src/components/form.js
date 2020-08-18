@@ -3,23 +3,12 @@ import "./style.css";
 
 function Form (props) {
     return (
-      <div>
-       <h2>Employee Directory</h1>
-       {/* <h3>Click</h3>         */}
-       <div>
+      <div className="container">
         <form>          
-          <input
-            value={props.name}
-            name="name"
-            onChange={props.handleInputChange}
-            type="text"
-            placeholder="Filter by letter(s)"
-          />
-         <br></br>
+          <input value={props.name} name="name" onChange={props.handleInputChange} type="text" placeholder="Filter by letter(s)"/>
           <button onClick={props.handleFormSubmit}>Submit</button>
         </form>
-        </div>
-      </div>
+    </div>
     );
 }
 

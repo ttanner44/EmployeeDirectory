@@ -1,8 +1,25 @@
 body {
-    background-color: green;
+    background-color: gray;
+    font-size: 14px;
+}
+.container {
+    background-color: rgb(84, 151, 84);
     font-size: 14px;
 }
 h2 {
     color: white;
     font-size: 14px;
+}
+.header {
+    padding: 30px 0;
+    color: gray;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    border-bottom: 10px solid Gray;
+    margin-bottom: 10px;
+}
+.img-fluid {
+    max-width: 100px;
+    height: auto;
 }
